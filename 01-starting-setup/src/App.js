@@ -1,17 +1,13 @@
-import ExpenseItem from "./components/ExpenseItem";
+import expenses from "./components/expense";
+import Expenses from "./components/Expenses";
 function App() {
-  //in js
-
-  // const paragraph = document.createElement('p')
-  // paragraph.textContent ='this is also visible  '
-  // document.getElementById('root').appendChild(paragraph)
-
-
+  
   return (
     <div>
       <h2>Ok letsgo</h2>
-      <ExpenseItem></ExpenseItem>
+      <Expenses items={expenses}/>
       
+
     </div>
   )
 }
