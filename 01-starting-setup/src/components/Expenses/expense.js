@@ -1,5 +1,5 @@
 
-const expenses = [
+const DUMMY_EXPENSES = [
 
     {
         id: 'e1',
@@ -26,4 +26,4 @@ const expenses = [
         date: new Date(2021, 5, 12),
     },
 ];
-export default expenses
+export default DUMMY_EXPENSES

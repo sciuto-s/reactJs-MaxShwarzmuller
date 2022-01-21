@@ -5,6 +5,7 @@ function Card(props){
     return(
 
         <div className={classes}>{props.children}</div>
+        
     )
 }
 
